@@ -18,7 +18,7 @@ var objeto = {
         if(this.lista && this.lista[posicion]){ 
             return this.lista[posicion];
         }
-        console.log("No existe ese elemento en la lista");
+        return "No existe ese elemento en la lista";
     },
     vaciarLista: async function(){
         console.log("Se eliminará la lista de forma asíncrona");
